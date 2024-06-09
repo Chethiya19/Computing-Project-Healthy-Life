@@ -1,0 +1,81 @@
+.footer {
+    background: linear-gradient(rgba(47, 110, 15, 0.85),rgba(146, 147, 146, 0.85));
+    z-index: 1000;
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .box-container .box h3 {
+    font-size: 2.5rem;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box h3 i {
+    color: var(--black);
+}
+
+.footer .box-container .box .links {
+    display: block;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box .links i {
+    color: var(--black);
+    padding-right: .5rem;
+}
+
+.footer .box-container .box .links:hover i {
+    padding-right: 2rem;
+}
+
+.footer .box-container .box p {
+    line-height: 1.8;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box .share a {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    color: #fff;
+    margin-right: .2rem;
+    background: black;
+    text-align: center;
+}
+
+.footer .box-container .box .share a:hover {
+    background: var(--black);
+    color: #66f32f;
+}
+
+
+/* .footer .box-container .box .payment-img {
+    margin-top: 2rem;
+    height: 3rem;
+    display: block;
+} */
+
+.footer .credit {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color: white;
+    border-top: var(--border);
+}
+
+.footer .credit span {
+    color:rgb(122, 239, 33);
+}

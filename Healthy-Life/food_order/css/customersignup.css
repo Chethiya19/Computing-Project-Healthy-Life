@@ -1,0 +1,23 @@
+body,html {
+  height: 100%;
+}
+
+body {
+  padding-top: 50px;
+}
+
+.bg-4{
+  background-color: #2f2f2f;
+  color: #ffffff;
+}
+
+footer{
+  display: block;
+
+}
+
+/*for Heading name "Food Exploria" */
+.edit{
+  text-shadow: 2px 2px 5px lightgreen;
+  color: green;
+}

@@ -1,0 +1,278 @@
+/*...........Header............*/
+header{
+    background-color: rgba(255, 255, 255, 0.333);
+}
+
+.hero{
+    background-image: linear-gradient(rgba(95, 97, 94, 0.85),rgba(106, 107, 105, 0.85)), url(img/bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+html {
+    font-size: 70%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+body {
+    background: #ffffff;
+}
+
+section {
+    padding: 2rem 9%;
+}
+
+.heading {
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    color: var(--black);
+}
+
+.btn:hover {
+  color: #ffffff;
+}
+.logo{
+margin: auto 3rem;
+font-weight: bold;
+font-size: 30px;
+color: #ffffff;
+cursor: pointer;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    background: rgb(180, 182, 179);
+    box-shadow: var(--box-shadow);
+    
+}
+
+img{
+    margin-right: 1px;
+}
+
+.header .navbar a {
+    font-size: larger;
+    margin: 0 1rem;
+    color: rgb(98, 255, 0);
+    font-weight: 500px;
+}
+
+.header .navbar a:hover {
+    color: var(--orange);
+}
+
+.responsive {
+width: 100%;
+height: auto;
+}
+#emy {
+text-align: center;
+font-size: 20px;
+}
+p {
+margin-bottom: 0px;
+width: 100%; 
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+span{
+color: rgb(98, 255, 0);
+}
+
+.nav-links{
+margin: auto 0;
+}
+
+nav ul li{
+list-style-type: none;
+display: inline-block;
+margin: auto 1.2rem;
+position: relative;
+}
+
+nav ul li a{
+text-decoration: none;
+text-transform: uppercase;
+font-size: large;
+font-weight: 1000;
+letter-spacing: 2px;
+color: #269f1b;
+}
+
+.sign-up{
+margin-right: 1rem;
+margin-left: 2rem;
+border: 2px solid #fff;
+padding: 5px 25px;
+border-radius: 25px;
+text-transform: capitalize;
+transition: 0.6s ease;
+}
+
+ul li a::after{
+content: '';
+width: 0%;
+height: 3px;
+position: absolute;
+left: 0;
+bottom: -5px;
+background-color: #ffffff;
+transition: 0.6s ease-out;
+
+}
+
+ul li a:hover::after{
+width: 50%;
+}
+
+.sign-up:hover{
+background-color:rgb(98, 255, 0);
+}
+
+.sign-up:hover::after{
+width: 0%;
+}
+
+
+
+.content{
+width: 100%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+
+}
+
+.content h1{
+font-size: 60px;
+font-weight: 800;
+color: #fff;
+
+}
+
+.content p{
+margin: 0.5rem;
+color: rgba(255,255,255,0.8);
+}
+
+button{
+width: 200px;
+margin: 1.2rem 1.5rem;
+padding: 0.8rem 1rem;
+background-color: transparent;
+border: 2px solid rgb(38, 94, 4);
+border-radius: 25px;
+text-transform: uppercase;
+font-weight: bold;
+cursor: pointer;
+box-shadow: inset 0 0 0 rgb(38, 94, 4);
+transition: 0.5s ease-out;
+font-size: large;
+color: #000000;
+}
+
+button:hover{
+box-shadow:inset 200px 0 0 0 rgb(58, 143, 5);
+}
+
+
+.footer {
+    background: linear-gradient(rgba(47, 110, 15, 0.85),rgba(146, 147, 146, 0.85));
+    z-index: 1000;
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .box-container .box h3 {
+    font-size: 2.5rem;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box h3 i {
+    color: var(--black);
+}
+
+.footer .box-container .box .links {
+    display: block;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box .links i {
+    color: var(--black);
+    padding-right: .5rem;
+}
+
+.footer .box-container .box .links:hover i {
+    padding-right: 2rem;
+}
+
+.footer .box-container .box p {
+    line-height: 1.8;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box .share a {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    color: #fff;
+    margin-right: .2rem;
+    background: black;
+    text-align: center;
+}
+
+.footer .box-container .box .share a:hover {
+    background: var(--black);
+    color: #66f32f;
+}
+
+
+/* .footer .box-container .box .payment-img {
+    margin-top: 2rem;
+    height: 3rem;
+    display: block;
+} */
+
+.footer .credit {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color: white;
+    border-top: var(--border);
+}
+
+.footer .credit span {
+    color:rgb(122, 239, 33);
+}
